@@ -1,110 +1,195 @@
-# 🦁 BEAST SEVAI - PS-01
+
+# 🦁 BEAST SEVAI – PS-01
+
 ## Autonomous Tamil Voice Agent for E-Sevai
 
-> A Tamil-first autonomous agent that converts a citizen's Tamil voice request
-> into an automated E-Sevai application workflow.
+> **Speak in Tamil. Let BEAST SEVAI simplify government service workflows.**
 
-### 🌐 Live Demo
+BEAST SEVAI is a Tamil-first autonomous AI agent designed to help users access government certificate services through a simple voice-based interface.
+
+A user can say:
+
+> **"Enakku income certificate venum."**
+
+The agent identifies the requested service, guides the user through the required information and documents, and orchestrates the application workflow.
+
+---
+
+## 🌐 Live Demo
+
 https://beast-sevai-ps-01.vercel.app
 
-### 💻 GitHub Repository
+## 💻 GitHub
+
 https://github.com/hidhayaafnan786-rgb/beast-sevai-ps-01
 
 ---
 
-## 📌 Problem
+## 🎯 Problem
 
-Many Tamil-speaking citizens, especially in rural areas, face difficulties
-using online government service portals because of language barriers and
-complex application procedures.
+Government online service portals can be difficult for users who are more comfortable communicating in Tamil.
 
 Common challenges include:
 
-- English-heavy online interfaces
-- Difficulty understanding application steps
-- Travel to nearby E-Sevai centres
-- Long waiting times
-- Additional assistance/form-filling charges
-- Complex workflows for different certificates
+- English-heavy interfaces
+- Complex application procedures
+- Difficulty identifying required documents
+- Manual form filling
+- Multiple steps across digital services
 
 ---
 
 ## 💡 Solution
 
-**BEAST SEVAI** is a Tamil-first autonomous agent designed to simplify
-government certificate applications.
+BEAST SEVAI provides a **Tamil voice-first AI interface** that converts a natural-language request into a guided government-service workflow.
 
-The user can simply say:
+### Example
 
-> "Enakku income certificate venum"
+**User:**  
+🎙️ "Enakku income certificate venum."
 
-The system converts the voice request into an automated workflow:
+**Agent:**
 
-**Tamil Voice → Intent Detection → Browser Automation → Verification
-→ Form Filling → Human Confirmation → Payment → Document Delivery**
+```text
+Tamil Voice
+     ↓
+Intent Detection
+     ↓
+Service Identification
+     ↓
+Document Guidance
+     ↓
+Application Workflow
+     ↓
+Browser Automation
+     ↓
+Verification
+     ↓
+Human Confirmation
+     ↓
+Result / Document
+
 
 ---
 
-## 🚀 PS-01 Requirements Implemented
+🚀 Key Features
 
-### 1. Browser Use ✅
+🎙️ Tamil Voice Interaction – Communicate naturally using Tamil.
 
-Implemented using **Puppeteer** in `server.js`.
+🤖 Intent Detection – Identifies the requested government service.
 
-Capabilities include:
+🌐 Browser Automation – Automates supported browser-based workflow steps.
 
-- Browser launch
-- Portal navigation
-- Automated form interaction
-- Page navigation
-- Screenshots
-- Progress logging
+📋 Document Guidance – Explains required documents and information.
 
-### 2. MCP Servers ✅
+📊 Progress Tracking – Shows the current workflow status.
 
-The project includes MCP-based modules for:
+👤 Human-in-the-Loop – Keeps users in control of sensitive actions.
 
-- Tamil Voice / Speech-to-Text
-- Payment processing
-- WhatsApp document delivery
+🔗 API / MCP / Connector Ready – Designed for integration with external services.
 
-### 3. APIs & Connectors ✅
 
-The architecture supports:
 
-- Aadhaar verification
-- E-Sevai services
-- Payment gateway integration
-- WhatsApp document delivery
+---
 
-> Note: Some integrations are implemented as mock/demo connectors and are
-> structured to be replaced with production APIs.
+🏗️ Architecture
 
-### 4. Goal-to-Achievement Workflow ✅
-
-```text
+User
+ ↓
 Tamil Voice Input
-        ↓
-Intent Planner
-        ↓
-Browser Automation
-        ↓
+ ↓
+Speech-to-Text
+ ↓
+AI Intent Detection
+ ↓
+Agent / Workflow Planner
+ ↓
+Browser Use + Tools
+ ↓
 Verification
-        ↓
-Automatic Form Filling
-        ↓
+ ↓
 Human Confirmation
-        ↓
-Payment
-        ↓
-Document Delivery
+ ↓
+Result / Document Delivery
 
-## 🧠 Progress & Human-in-Loop
-- Progress Checker: Live green terminal logs on Vercel
-- Auto-recovery: Retry logic on fail
-- Human Confirmation: Required before ₹60 payment
 
-## ▶️ How to Run
-npm install
-node server.js
-Frontend: vercel --prod
+---
+
+🧩 PS-01 Alignment
+
+BEAST SEVAI is designed around:
+
+Autonomous Agents
+
+Browser Use
+
+MCP / Tools
+
+APIs & Connectors
+
+Human-in-the-Loop workflows
+
+
+The prototype demonstrates the agent workflow and user experience. External services requiring official APIs, credentials or authorized production access may use demo/mock integrations during the hackathon.
+
+
+---
+
+🛠️ Tech Stack
+
+HTML
+
+CSS
+
+JavaScript
+
+AI Agent Workflow
+
+Tamil Voice Interaction
+
+Browser Automation
+
+MCP / APIs / Connectors
+
+Vercel
+
+
+
+---
+
+🔐 Safety & User Control
+
+Sensitive actions such as final submission or payment should require user confirmation.
+
+API keys, passwords and other secrets should never be committed to the repository.
+
+
+---
+
+⚠️ Prototype Status
+
+BEAST SEVAI is a hackathon prototype. Production deployment of government services may require official APIs, authentication, permissions and authorized access.
+
+
+---
+
+🏆 Hackathon
+
+Project: BEAST SEVAI
+Problem Statement: PS-01 – Autonomous Agents with Browser Use, MCP, APIs & Connectors
+
+🔗 Live Demo
+
+https://beast-sevai-ps-01.vercel.app
+
+🔗 Repository
+
+https://github.com/hidhayaafnan786-rgb/beast-sevai-ps-01
+
+
+---
+
+🦁 BEAST SEVAI
+
+Tamil Voice → AI Agent → E-Sevai
+
