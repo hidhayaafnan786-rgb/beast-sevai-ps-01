@@ -1,195 +1,66 @@
+🦁 BEAST SEVAI – PS-01
 
-# 🦁 BEAST SEVAI – PS-01
+Autonomous Tamil Voice Agent for E-Sevai
 
-## Autonomous Tamil Voice Agent for E-Sevai
+«A Tamil-first AI agent that simplifies Tamil Nadu E-Sevai services using voice, browser automation, MCP, APIs and connectors.»
 
-> **Speak in Tamil. Let BEAST SEVAI simplify government service workflows.**
+🌐 Live Demo
 
-BEAST SEVAI is a Tamil-first autonomous AI agent designed to help users access government certificate services through a simple voice-based interface.
+https://beast-sevai-ps-01.vercel.app/
 
-A user can say:
-
-> **"Enakku income certificate venum."**
-
-The agent identifies the requested service, guides the user through the required information and documents, and orchestrates the application workflow.
-
----
-
-## 🌐 Live Demo
-
-https://beast-sevai-ps-01.vercel.app
-
-## 💻 GitHub
+💻 GitHub
 
 https://github.com/hidhayaafnan786-rgb/beast-sevai-ps-01
 
----
+💡 Project Overview
 
-## 🎯 Problem
+BEAST SEVAI allows users to request E-Sevai services through Tamil voice commands.
 
-Government online service portals can be difficult for users who are more comfortable communicating in Tamil.
+Example:
+""Enakku income certificate venum"" → Understands the request → Selects the service → Automates browser actions → Fills the form → Continues the workflow → Delivers the document through WhatsApp.
 
-Common challenges include:
+✨ Key Features
 
-- English-heavy interfaces
-- Complex application procedures
-- Difficulty identifying required documents
-- Manual form filling
-- Multiple steps across digital services
-
----
-
-## 💡 Solution
-
-BEAST SEVAI provides a **Tamil voice-first AI interface** that converts a natural-language request into a guided government-service workflow.
-
-### Example
-
-**User:**  
-🎙️ "Enakku income certificate venum."
-
-**Agent:**
-
-```text
-Tamil Voice
-     ↓
-Intent Detection
-     ↓
-Service Identification
-     ↓
-Document Guidance
-     ↓
-Application Workflow
-     ↓
-Browser Automation
-     ↓
-Verification
-     ↓
-Human Confirmation
-     ↓
-Result / Document
-
-
----
-
-🚀 Key Features
-
-🎙️ Tamil Voice Interaction – Communicate naturally using Tamil.
-
-🤖 Intent Detection – Identifies the requested government service.
-
-🌐 Browser Automation – Automates supported browser-based workflow steps.
-
-📋 Document Guidance – Explains required documents and information.
-
-📊 Progress Tracking – Shows the current workflow status.
-
-👤 Human-in-the-Loop – Keeps users in control of sensitive actions.
-
-🔗 API / MCP / Connector Ready – Designed for integration with external services.
-
-
-
----
-
-🏗️ Architecture
-
-User
- ↓
-Tamil Voice Input
- ↓
-Speech-to-Text
- ↓
-AI Intent Detection
- ↓
-Agent / Workflow Planner
- ↓
-Browser Use + Tools
- ↓
-Verification
- ↓
-Human Confirmation
- ↓
-Result / Document Delivery
-
-
----
-
-🧩 PS-01 Alignment
-
-BEAST SEVAI is designed around:
-
-Autonomous Agents
-
-Browser Use
-
-MCP / Tools
-
-APIs & Connectors
-
-Human-in-the-Loop workflows
-
-
-The prototype demonstrates the agent workflow and user experience. External services requiring official APIs, credentials or authorized production access may use demo/mock integrations during the hackathon.
-
-
----
+- 🎙️ Tamil voice interaction
+- 🤖 AI intent understanding
+- 🌐 Browser automation with Puppeteer
+- 📝 Automated form filling
+- 🔗 MCP, APIs & connectors
+- 💳 Payment workflow
+- 📱 WhatsApp document delivery
+- 👤 Human confirmation for important actions
 
 🛠️ Tech Stack
 
-HTML
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js
+Automation: Puppeteer
+AI/Voice: Speech-to-Text & Tamil voice processing
+Integrations: MCP, APIs & WhatsApp
+Deployment: Vercel
 
-CSS
+⚙️ Setup & Installation
 
-JavaScript
+git clone https://github.com/hidhayaafnan786-rgb/beast-sevai-ps-01.git
+cd beast-sevai-ps-01
+npm install
+node server.js
 
-AI Agent Workflow
+Configure required API keys and environment variables in ".env".
 
-Tamil Voice Interaction
+🚀 How to Run
 
-Browser Automation
+Run locally with:
 
-MCP / APIs / Connectors
+node server.js
 
-Vercel
+Or use the deployed version:
 
+https://beast-sevai-ps-01.vercel.app/
 
+🏆 Problem Statement
 
----
+PS-01 – Autonomous Agents with Browser Use, MCP, APIs & Connectors
 
-🔐 Safety & User Control
-
-Sensitive actions such as final submission or payment should require user confirmation.
-
-API keys, passwords and other secrets should never be committed to the repository.
-
-
----
-
-⚠️ Prototype Status
-
-BEAST SEVAI is a hackathon prototype. Production deployment of government services may require official APIs, authentication, permissions and authorized access.
-
-
----
-
-🏆 Hackathon
-
-Project: BEAST SEVAI
-Problem Statement: PS-01 – Autonomous Agents with Browser Use, MCP, APIs & Connectors
-
-🔗 Live Demo
-
-https://beast-sevai-ps-01.vercel.app
-
-🔗 Repository
-
-https://github.com/hidhayaafnan786-rgb/beast-sevai-ps-01
-
-
----
-
-🦁 BEAST SEVAI
-
-Tamil Voice → AI Agent → E-Sevai
+BEAST SEVAI demonstrates how autonomous agents can make government digital services more accessible through Tamil voice interaction and automation.
 
